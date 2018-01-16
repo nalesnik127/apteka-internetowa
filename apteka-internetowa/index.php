@@ -1,23 +1,13 @@
 <?php
+require_once('connection.php');
+if (isset($_GET['controller']) && isset($_GET['action'])) {
+    $controller = $_GET['controller'];
+    $action     = $_GET['action'];
+  } else {
+    $controller = 'pages';
+    $action     = 'home';
+  }
 
+  require_once('views/layout.php');
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<title>EFarma</title>
-<meta charset="UTF-8">
-<meta name="description" content="Witryna apteki internetowej">
-<meta name="keywords" content="Apteka, Leki, Produkty farmakologiczne">
-<meta name="author" content="Andrzej Olechnowicz">
-<link rel="stylesheet" href="css/style.css" type="text/css" />
-<style type="text/css">
-</style>
-
-</head>
-
-<body>
-Tu będzie jakiś kurde kontent.
-</body>
-</html>
