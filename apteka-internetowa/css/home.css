@@ -1,0 +1,11 @@
+#welcome_message{
+    margin-top:50px;
+    color:lawngreen;
+}
+#navigation_help{
+    text-align:right;
+}
+#image_button{
+    width:100px;
+    height:100px;
+}

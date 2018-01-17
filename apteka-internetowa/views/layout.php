@@ -6,14 +6,13 @@
     <meta name="description" content="Witryna sklepu internetowego">
     <meta name="keywords" content="Apteka, Leki, Produkty, Sprzeda¿, Zamówienie">
     <meta name="author" content="Andrzej Olechnowicz">
-	<link rel="stylesheet" href="/apteka/css/style.css" type="text/css" />
+	<link rel="stylesheet" href="/apteka/css/site.css" type="text/css" />
   </head>
   <body>
     <header>
-      <a href='/apteka'>Home</a>
+      <p id = "header_left"><a href='/apteka'>Strona glowna</a><p>
     </header>
-	<p>Dzia³a?</p>
-    <?php require_once('routes.php'); ?>
+	<?php require_once('routes.php'); ?>
 
     <footer>
       Copyright

@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\css"
   ],
-  "SelectedNode": "\\connection.php",
+  "SelectedNode": "\\css\\site.css",
   "PreviewInSolutionExplorer": false
 }
