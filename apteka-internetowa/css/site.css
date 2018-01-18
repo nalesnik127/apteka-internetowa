@@ -7,6 +7,10 @@ body{
 article {
     width:1024px;
     margin:auto;
+    border:ridge;
+}
+ul {
+    list-style:none;
 }
 .category_buttons{
     font-size:large;

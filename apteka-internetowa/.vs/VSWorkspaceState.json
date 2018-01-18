@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\css"
+    "\\controllers",
+    "\\models",
+    "\\views",
+    "\\views\\posts"
   ],
-  "SelectedNode": "\\css\\site.css",
+  "SelectedNode": "\\views\\posts\\index.php",
   "PreviewInSolutionExplorer": false
 }

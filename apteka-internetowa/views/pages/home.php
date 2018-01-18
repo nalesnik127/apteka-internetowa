@@ -2,11 +2,24 @@
 <article>
 	<section>
 		<div id = "welcome_message">
-			<h2>Witaj, <?php echo $name . "ie " . $lastname; ?>!</h2>
+			<button class = "category_buttons"id = "image_button" style="float:right;">image_button koszyka</button>
+			<h2>Witaj, <?php echo $name . ". " . $lastname; ?>!</h2>
+			
+			<div id = "navigation_help">
+			   <input type="search" value="szukaj"></input>
+			   <button class="category_buttons">Zloz zamowienie</button>
+			</div>
 		</div>
-		<div id = "navigation_help">
-			<button class = "category_buttons">Zloz zamowienie</button>
-			<button class = "category_buttons"id = "image_button">image_button koszyka</button>
+		<div id="category_choice">
+			<button class="category_buttons">Kategoria1</button><br>
+			<button class="category_buttons">Kategoria2</button>
 		</div>
+		<div id="product_list">
+			<?php include('controllers/posts_controller.php');
+				$controller = new PostsController();
+				echo $controller->index();
+			?>
+		</div>
+	<br><br><br>
 	</section>
 </article>

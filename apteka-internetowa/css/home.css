@@ -1,11 +1,41 @@
 #welcome_message{
     margin-top:50px;
-    color:lawngreen;
+    margin-left:30px;
 }
 #navigation_help{
     text-align:right;
+}
+#navigation_help button{
+    margin-right:20px;
+}
+#navigation_help input[type=search]{
+    margin-right:160px;
+    width:100px;
+    border:1px #808080 solid;
+    border-radius:13px;
+    padding:5px;
 }
 #image_button{
     width:100px;
     height:100px;
 }
+#category_choice {
+    width: auto;
+    display: inline;
+    position: relative;
+    left: 20px;
+    float: left;
+    border: 2px solid black;
+}
+
+#product_list {
+    width: auto;
+    display: inline;
+    position: inherit;
+    
+}
+    #product_list li {
+        margin-left: 100px;
+        padding: 5px;
+        border: 2px solid black;
+    }
