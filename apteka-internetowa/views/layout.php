@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>EFarma</title>
-    <meta charset="UTF-8">
+    <meta charset="Windows-1250"/>
     <meta name="description" content="Witryna sklepu internetowego">
     <meta name="keywords" content="Apteka, Leki, Produkty, Sprzeda¿, Zamówienie">
     <meta name="author" content="Andrzej Olechnowicz">

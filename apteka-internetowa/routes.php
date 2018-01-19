@@ -24,7 +24,7 @@
 
   // just a list of the controllers we have and their actions
   // we consider those "allowed" values
-  $controllers = array('pages' => ['home', 'error'],
+  $controllers = array('pages' => ['home', 'orderStart', 'error'],
 						'posts' => ['index', 'show'],
 						'products' => ['index', 'show']);
 

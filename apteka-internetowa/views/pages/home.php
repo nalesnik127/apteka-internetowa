@@ -3,11 +3,11 @@
 	<section>
 		<div id = "welcome_message">
 			<button class = "category_buttons"id = "image_button" style="float:right;">image_button koszyka</button>
-			<h2>Witaj, <?php echo $name . ". " . $lastname; ?>!</h2>
+			<h2>Witaj, <?php echo $name . " " . $lastname; ?>!</h2>
 			
 			<div id = "navigation_help">
 			   <input type="search" value="szukaj"></input>
-			   <button class="category_buttons">Zloz zamowienie</button>
+			   <a href='?controller=pages&action=orderStart'>Zloz zamowienie</a>
 			</div>
 		</div>
 		<div id="category_choice">

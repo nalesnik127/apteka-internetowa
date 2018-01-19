@@ -2,10 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\controllers",
+    "\\images",
     "\\models",
     "\\views",
-    "\\views\\posts"
+    "\\views\\order"
   ],
-  "SelectedNode": "\\views\\posts\\index.php",
+  "SelectedNode": "\\views\\layout.php",
   "PreviewInSolutionExplorer": false
 }
