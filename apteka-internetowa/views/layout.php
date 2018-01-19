@@ -10,6 +10,7 @@
   </head>
   <body>
     <header>
+	  <img src="images/pharmacy_cross.jpg" alt="neon cross" style="width:150px;height:150px;">
       <p id = "header_left"><a href='/apteka'>Strona glowna</a><p>
     </header>
 	<?php require_once('routes.php'); ?>

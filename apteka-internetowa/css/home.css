@@ -11,21 +11,21 @@
 #navigation_help input[type=search]{
     margin-right:160px;
     width:100px;
-    border:1px #808080 solid;
+    border:1px #808080 outset;
     border-radius:13px;
     padding:5px;
 }
 #image_button{
     width:100px;
     height:100px;
+    margin-right:50px;
 }
 #category_choice {
     width: auto;
     display: inline;
     position: relative;
-    left: 20px;
+    left: 37px;
     float: left;
-    border: 2px solid black;
 }
 
 #product_list {
@@ -36,6 +36,14 @@
 }
     #product_list li {
         margin-left: 100px;
-        padding: 5px;
-        border: 2px solid black;
+        padding-top: 5px;
+        padding-bottom: 8px;
+        padding-left: 34px;
+        border: 1px outset #808080;
+        text-align: inherit;
+        background: white;
+    }
+    #product_list img {
+        width:60px;
+        height:50px;
     }

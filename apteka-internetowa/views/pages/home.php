@@ -15,8 +15,8 @@
 			<button class="category_buttons">Kategoria2</button>
 		</div>
 		<div id="product_list">
-			<?php include('controllers/posts_controller.php');
-				$controller = new PostsController();
+			<?php include('controllers/products_controller.php');
+				$controller = new ProductsController();
 				echo $controller->index();
 			?>
 		</div>

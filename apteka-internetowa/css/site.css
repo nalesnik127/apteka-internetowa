@@ -1,13 +1,23 @@
 header{
-    margin-top:100px;
+    margin-top:50px;
 }
-body{
-    font-size:x-large;
+body {
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-kerning:normal;
+    font-stretch:ultra-condensed;
+}
+h2 {
+    color: #7ea17a;
 }
 article {
-    width:1024px;
-    margin:auto;
-    border:ridge;
+    width: 1024px;
+    margin: auto;
+    border: 1px outset #808080;
+    background: #d1c4c4;
+}
+a{
+    text-decoration:none;
 }
 ul {
     list-style:none;
@@ -15,4 +25,8 @@ ul {
 .category_buttons{
     font-size:large;
     
+}
+#add_to_cart{
+    width:25px;
+    height:25px;
 }

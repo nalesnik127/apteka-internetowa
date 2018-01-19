@@ -12,6 +12,10 @@
 	  require_once('models/post.php');
 	  $controller = new PostsController();
 	  break;
+	  case 'products':
+	  require_once('models/product.php');
+	  $controller = new ProductsController();
+	  break;
     }
 
     // call the action
@@ -21,7 +25,8 @@
   // just a list of the controllers we have and their actions
   // we consider those "allowed" values
   $controllers = array('pages' => ['home', 'error'],
-						'posts' => ['index', 'show']);
+						'posts' => ['index', 'show'],
+						'products' => ['index', 'show']);
 
   // check that the requested controller and action are both allowed
   // if someone tries to access something else he will be redirected to the error action of the pages controller
