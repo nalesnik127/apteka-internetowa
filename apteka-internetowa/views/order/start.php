@@ -17,7 +17,8 @@
 			Ulica: <input type="text" value="<?php echo $buyer->street?>" name="b_street"><br>
 			Numer: <input type="text" value="<?php echo $buyer->number?>"name="b_nb"><br>
 		</div>
-		<div id="delivery_opt">
+		<hr>
+		<div id="delivery_opt" class="select_opt">
 			Wybierz forme wysy³ki:
 			<select>
 				<option value="kurier1">DHL</option>
@@ -26,7 +27,8 @@
 				<option value="poczta2">Poczta polska, priorytet</option>
 			</select>
 		</div>
-		<div id="payment_opt">
+		<hr>
+		<div id="payment_opt" class="select_opt">
 			Wybierz formê zap³aty:
 			<select>
 				<option value="1">Przelewy24</option>

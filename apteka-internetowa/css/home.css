@@ -1,3 +1,7 @@
+.select_opt {
+    margin-top: 21px;
+    margin-bottom: 13px;
+}
 #welcome_message{
     margin-top:50px;
     margin-left:30px;
@@ -5,9 +9,16 @@
 #navigation_help{
     text-align:right;
 }
-#navigation_help button{
-    margin-right:20px;
-}
+    #navigation_help a {
+        margin-right: 20px;
+        border: 2px outset #808080;
+        padding: 5px;
+        color: black;
+        background-color: #808080;
+    }
+    #navigation_help a:active{
+        color:red;
+    }
 #navigation_help input[type=search]{
     margin-right:160px;
     width:100px;
@@ -15,27 +26,31 @@
     border-radius:13px;
     padding:5px;
 }
-#image_button{
-    width:100px;
-    height:100px;
-    margin-right:50px;
+#image_button {
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+    background: url(/apteka/images/shopping_cart.png) no-repeat;
 }
 #category_choice {
     width: auto;
     display: inline;
     position: relative;
     left: 37px;
+    margin-top:70px;
     float: left;
 }
-
+#category_choice button{
+    width:104px;
+}
 #product_list {
     width: auto;
     display: inline;
     position: inherit;
-    
 }
     #product_list li {
         margin-left: 100px;
+        margin-right:50px;
         padding-top: 5px;
         padding-bottom: 8px;
         padding-left: 34px;

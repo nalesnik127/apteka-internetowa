@@ -15,6 +15,9 @@
 	  case 'products':
 	  require_once('models/product.php');
 	  $controller = new ProductsController();
+	  case 'orders':
+	  require_once('models/order.php');
+	  $controller = new OrdersController();
 	  break;
     }
 
@@ -26,7 +29,8 @@
   // we consider those "allowed" values
   $controllers = array('pages' => ['home', 'orderStart', 'error'],
 						'posts' => ['index', 'show'],
-						'products' => ['index', 'show']);
+						'products' => ['index', 'show'],
+						'orders' => ['addToCart', 'all', 'empty']);
 
   // check that the requested controller and action are both allowed
   // if someone tries to access something else he will be redirected to the error action of the pages controller
