@@ -5,6 +5,7 @@
 #welcome_message{
     margin-top:50px;
     margin-left:30px;
+    margin-bottom:50px;
 }
 #navigation_help{
     text-align:right;
@@ -30,7 +31,6 @@
     width: 100px;
     height: 100px;
     margin-right: 50px;
-    background: url(/apteka/images/shopping_cart.png) no-repeat;
 }
 #category_choice {
     width: auto;

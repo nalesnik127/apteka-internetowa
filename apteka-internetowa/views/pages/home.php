@@ -1,13 +1,15 @@
 <?php 
-session_start();
-$cart = new SplDoublyLinkedList();
-$_SESSION['shopping_cart'] = $cart;
+if(!isset($_SESSION)){
+	session_start();
+	$cart = [];
+    $_SESSION['shopping_cart'] = $cart;
+}
 ?>
 <link rel="stylesheet" href="/apteka/css/home.css" type="text/css" />
 <article>
 	<section>
 		<div id = "welcome_message">
-			<button class = "category_buttons"id = "image_button" style="float:right;"></button>
+			<a href='?controller=orders&action=all'><img src='images/shopping_cart.png' id = "image_button" style="float:right;" alt="Ikona koszyka"></img></a>
 			<h2>Witaj, <?php echo $name . " " . $lastname; ?>!</h2>
 			
 			<div id = "navigation_help">

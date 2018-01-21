@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\css",
+    "\\images",
+    "\\views",
+    "\\views\\cart",
+    "\\views\\order",
+    "\\views\\pages"
   ],
-  "SelectedNode": "\\views",
+  "SelectedNode": "\\css\\home.css",
   "PreviewInSolutionExplorer": false
 }
