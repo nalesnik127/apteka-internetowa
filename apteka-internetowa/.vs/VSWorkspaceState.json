@@ -1,13 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\controllers",
     "\\css",
     "\\images",
     "\\views",
-    "\\views\\cart",
     "\\views\\order",
-    "\\views\\pages"
+    "\\views\\pages",
+    "\\views\\posts",
+    "\\views\\products"
   ],
-  "SelectedNode": "\\css\\home.css",
+  "SelectedNode": "\\views\\order\\start.php",
   "PreviewInSolutionExplorer": false
 }

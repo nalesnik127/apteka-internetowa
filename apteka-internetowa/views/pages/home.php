@@ -14,7 +14,7 @@ if(!isset($_SESSION)){
 			
 			<div id = "navigation_help">
 			   <input type="search" value="szukaj"></input>
-			   <a href='?controller=pages&action=orderStart'>Zloz zamowienie</a>
+			   <a href='?controller=products&action=show&id=1'>Zloz zamowienie</a>
 			</div>
 		</div>
 		<div id="category_choice">

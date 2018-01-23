@@ -13,7 +13,7 @@
           if (!isset($_GET['id']))
             return call('pages', 'error');
 
-          // we use the given id to get the right post
+          // we use the given id to get the right product
           $product = Product::find($_GET['id']);
 		  require_once('views/products/show.php');
 	  }

@@ -1,6 +1,6 @@
 <?php
 session_start();
-  class OrdersController{
+class OrdersController{
      public function addToCart(){
 	 
 	 
@@ -11,13 +11,9 @@ session_start();
 	 	 $_SESSION['shopping_cart'] = $cart;
 	 } else {
 		$cart = $_SESSION['shopping_cart'];
-		echo '<script type="text/javascript">alert("jebac");</script>';
-		
 	 }
 	  $cart[] = $_GET['id'];
-	  if(count($cart) > 1){
-		echo '<script type="text/javascript">alert("koszyk: 1");</script>';
-	  }
+	  
 	  
 	   return call('pages', 'home');
 	 }
@@ -42,6 +38,6 @@ session_start();
 	 public function empty(){
 	 	 require_once('views/order/empty.php');
 	 }
-
+	 
   }
 ?>

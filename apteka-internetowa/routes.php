@@ -15,6 +15,7 @@
 	  case 'products':
 	  require_once('models/product.php');
 	  $controller = new ProductsController();
+	  break;
 	  case 'orders':
 	  require_once('models/order.php');
 	  $controller = new OrdersController();
@@ -27,7 +28,7 @@
 
   // just a list of the controllers we have and their actions
   // we consider those "allowed" values
-  $controllers = array('pages' => ['home', 'orderStart', 'error'],
+  $controllers = array('pages' => ['home', 'orderStart', 'follow', 'error'],
 						'posts' => ['index', 'show'],
 						'products' => ['index', 'show'],
 						'orders' => ['addToCart', 'all', 'empty']);

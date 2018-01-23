@@ -2,14 +2,14 @@
 <article>
 	<section>
 		<div id="nav_head">
-			<h2>Skladanie zamowienia</h2>
+			<h2>Podsumowanie zamowienia</h2>
 		</div>
 	</section>
 	<section>
 		<div>
-			<h4>Dane adresata</h4>
+			<h4>Dane adresata:</h4>
 		</div>
-		<form action="" id="order_form">
+		<form action="views/order/submit.php" id="order_form" method="get">
 		<div id="input_buyer_data">
 			Imie: <input type="text" value="<?php echo $buyer-> name ?>" name="b_name"><br>
 			Nazwisko: <input type="text" value="<?php echo $buyer->surname?>" name="b_surname"><br>
@@ -19,25 +19,25 @@
 		</div>
 		<hr>
 		<div id="delivery_opt" class="select_opt">
-			Wybierz forme wysy³ki:
-			<select>
-				<option value="kurier1">DHL</option>
-				<option value="kurier2">UPS</option>
-				<option value="poczta1">Poczta polska</option>
-				<option value="poczta2">Poczta polska, priorytet</option>
+			Wybierz forme wysylki:
+			<select name="wysylka">
+				<option value="kurier1" name="Kurier - UPS" >Kurier - UPS</option>
+				<option value="kurier2" name="Kurier - DHL" >Kurier - DHL</option>
+				<option value="poczta1" name="Poczta polska - priorytet">Poczta polska - priorytet</option>
+				<option value="poczta2" name="Poczta polska">Poczta polska</option>
 			</select>
 		</div>
 		<hr>
 		<div id="payment_opt" class="select_opt">
-			Wybierz formê zap³aty:
-			<select>
-				<option value="1">Przelewy24</option>
-				<option value="2">Przelew internetowy</option>
-				<option value="3">Przelew w³asny</option>
-				<option value="4">Za pobraniem</option>
+			Wybierz forme zaplaty:
+			<select name="zaplata">>
+				<option value="1" >Przez zewnetrzny system</option>
+				<option value="2">Za pobraniem</option>
 			</select>
+			
 		</div>
-		<input type="submit" class="category_buttons">
+		<input type="submit" value="Zamawiam">
+		</form>
 	</section>
 			
 </article>
